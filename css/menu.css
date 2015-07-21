@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lavaLampNoImage {
+            position: relative;
+            height: 50px;
+            width: 570px;
+            background-color: white;
+            overflow: hidden;
+			background:#80b524;
+			padding-left:20px;
+        }
+                .lavaLampNoImage li {
+                    float: left;
+                    list-style: none;
+					margin:0;
+                }
+                    .lavaLampNoImage li.back {
+                        background: url(../images/lava.jpg) no-repeat top center;
+                        width: 9px;
+                        height: 50px;
+                        z-index: 8;
+                        position: absolute;
+                    }
+                    .lavaLampNoImage li a {
+                        font: bold 12px/30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+                        text-decoration: none;
+                        color: #fff;
+                        outline: none;
+                        text-align: center;
+                        top: 7px;
+                        text-transform: uppercase;
+                        letter-spacing: 0;
+                        z-index: 100;
+                        display: block;
+                        float: left;
+                        height: 50px;
+                        position: relative;
+                        overflow: hidden;
+                        margin: auto 10px;
+                    }
+                        .lavaLampNoImage li a:hover, .lavaLampNoImage li a:active, .lavaLampNoImage li a:visited {
+                            border: none;
+                        }
+						
+.footer-nav
+{
+	float:right;
+	width:100%;
+}
+.footer-nav li
+{
+	float:left;
+	color:#FFF;
+	padding:0px 20px;
+	text-transform:uppercase;
+	font-size:12px;
+}
